@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test2"
+  annotations:
+    backstage.io/kubernetes-id: "test2"
+    backstage.io/techdocs-ref: dir:.
+    grafana/overview-dashboard: https://grafana.local.lan.vernal.dev/d/X6mdr1hnz/loki?orgId=1
+  links:
+  
+spec:
+  type: service
+  owner: "group:default/guests"
+  lifecycle: experimental
+
